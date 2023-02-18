@@ -1,0 +1,77 @@
+a.nav-link {
+    color: #000;
+    text-transform:capitalize;
+  }
+  .navbar {
+    background-color: white;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  }
+  .navbar-brand img {
+    margin-left: 90px;
+  }
+  .navbar-nav {
+    margin: auto;
+  }
+  .nav-item a {
+    padding: 15px 12px;
+    font-size: 16px;
+    font-weight:500;
+    
+    
+  }
+  .nav-item a:hover {
+    color: #d21859;
+  }
+  
+  .dropdown {
+    position: relative;
+    bottom: 2px;
+    right: 6px;
+  }
+  .dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 242px;
+    z-index: 1;
+    left: 20px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    text-transform:capitalize;
+    
+  }
+  
+  .dropdown-content a:hover {
+    color: #d21859;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .fa-home,.fa-hand-point-right,.fa-users,.fa-laptop-code,.fa-tv,.fa-phone-alt,.fa-user-friends,.fa-mobile-alt,.fa-laptop{
+    margin-right:10px;
+    color: #1993d3;
+  
+
+  }

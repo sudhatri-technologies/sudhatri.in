@@ -1,0 +1,51 @@
+h1{
+    font-size:20px;
+    font-weight:600;
+    text-transform:uppercase;
+    text-align:center;
+    
+
+}
+h1,h2,h3{
+    color: #1993d3;
+    text-transform:uppercase;
+}
+h2{
+    font-size:20px;
+}
+h3{
+    font-size:16px;
+
+}
+
+
+.services{
+    text-align:center;
+    
+    border-right:2px #e9e9e9 solid;
+   
+    padding:10px;
+    
+}
+
+.top{
+    margin-top:-30px;
+}
+
+a{
+    text-decoration:none;
+}
+.readmore{
+    background:#1993d3;
+    color: #fff;
+    border-radius:8px;
+    font-size:14px;
+   
+}
+
+.justify{
+    text-align:justify;
+}
+.imgBorder{
+    border-radius: 20px;
+}

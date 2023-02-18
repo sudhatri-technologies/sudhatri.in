@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container-fluid p-0 mb-5">
+    <img src="{% static 'images/mobile-banner.png'%}" alt="contact banner" class="img-fluid mb-4 w-100" />
+</div>
+<div class="container mt-5 mb-5">
+    
+
+    <div class="row text-center mt-5 mb-5">
+
+        <div class="col-md-6 mb-4">
+            <img src="{% static 'images/android.png'%}" alt="" height="300px"  />
+
+        </div>
+        <div class="col-md-6">
+            <h3><span class="line_before"></span>Android app development</h3>
+
+            <p class="mt-4 justify">
+
+                Sudhatri brings you world-class mobile app development services, transforming your idea and needs into a completely secure and ingenious mobile application. Our experts provide end-to-end App development support for iOS, Android, or native mobile applications. Sudhatri turns your dream into mere reality by offering cutting-edge mobile application customized solutions at your budget. We serve our customers with the most creative, trustworthy, and secure mobile app solutions.
+
+               </p>
+
+        </div>
+       
+
+    </div>
+
+
+    <div class="row text-center mb-5 mt-5">
+        <div class="col-md-6 mb-4">
+            <h3><span class="line_before"></span>iOS app development</h3>
+
+            <p class="mt-4 justify">
+                Sudhatri brings you world-class mobile app development services, transforming your idea and needs into a completely secure and ingenious mobile application. Our experts provide end-to-end App development support for iOS, Android, or native mobile applications. Sudhatri turns your dream into mere reality by offering cutting-edge mobile application customized solutions at your budget. We serve our customers with the most creative, trustworthy, and secure mobile app solutions.
+
+
+            </p>
+
+        </div>
+        <div class="col-md-6">
+            <img src="{% static 'images/ios1.png'%}" alt=""  class="img-fluid"  />
+
+        </div>
+
+    </div>
+</div>
+{% endblock content %}
