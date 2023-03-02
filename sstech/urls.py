@@ -3,12 +3,12 @@ from django.urls import path,include
 from sstech import views
 urlpatterns = [
     path('',views.home,name='home'),
-    path('about/',views.about,name='about'),
-    path('webdevelopment',views.webDevelopment,name='web'),
-    path('mobiledevelopment',views.mobileDevelopment,name='mobile'),
-    path('digitalmarketing',views.digitalMarketing,name='dm'),
-    path('usstaffing',views.usStaffing,name='us'),
-    path('domesticstaffing',views.domesticStaffing,name='ds'),
+    path('about',views.about,name='about'),
+    path('web-development',views.webDevelopment,name='web'),
+    path('mobile-development',views.mobileDevelopment,name='mobile'),
+    path('digital-marketing',views.digitalMarketing,name='dm'),
+    path('us-staffing',views.usStaffing,name='us'),
+    path('domestic-staffing',views.domesticStaffing,name='ds'),
     path('careers',views.careers,name='careers'),
-    path('contact/',views.contact,name='contact')
+    path('contact',views.contact,name='contact')
 ]

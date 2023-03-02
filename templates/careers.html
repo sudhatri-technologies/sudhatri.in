@@ -1,102 +1,56 @@
 {% extends 'base.html' %}
 {% load static %}
+{% block meta %}
+<meta name="description" content="hello">
+<meta name="keywords" content="hai">
+{% endblock %}
 {% block content %}
 <div class="container-fluid p-0 mb-5">
-    <img src="{% static 'images/career-banner.png'%}" alt="contact banner" class="img-fluid mb-4 w-100" />
-
+  <img src="{% static 'images/career-banner.png'%}" alt="careers banner" class="img-fluid mb-4 w-100" />
 </div>
-
 <div class="container mb-5">
-    <div class="row">
-      <div class="col-md-12">
-        <div style="overflow-x: auto;">
-          <table  >
-            <tr>
-              <th>Job Title</th>
-              
-              <th>Experience</th>
-              <th>Required Skills</th>
-
-            </tr>
-            
-            <tr>
-              <td>Big Data Engineer</td>
-              
-              <td>3 to 8 years</td>
-              <td>Python,SQL,Handoop Ecosystem,Hive,Kubernetes</td>
-              <td>
-                <a   href="{% url 'contact' %}" class="btn btn-primary" >
-                Apply Now<i  class=" fa fa-paper-plane"></i>
-              </a></td>
-            </tr>
-
-            <tr>
-              <td>SQL Server Support</td>
-              
-              <td>3 to 4 years</td>
-              <td>L1,L2,SSIS,ETL Tools,Sql,DOS,UNIX</td>
-              <td>
-                <a  href="{% url 'contact' %}" class="btn  btn-primary" >
-                Apply Now<i  class="fa fa-paper-plane"></i>
-              </a></td>
-            </tr>
-            <tr>
-              <td>Senior DotNet Developer</td>
-              
-              <td>5+ years</td>
-              <td>.Net Core,Visual Studio 2019,SQL Server 2019,SQL,SAAS,Kestrel Server</td>
-              <td>
-                <a  href="{% url 'contact' %}" class="btn  btn-primary" >
-                  Apply Now<i  class="fa fa-paper-plane"></i>
-                </a>
+  <div class="row">
+    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-12">
+      <div style="overflow-x: auto;">
+        <table>
+          <tr>
+            <th>Job Title</th>
+            <th>Experience</th>
+            <th>Required Skills</th>
+          </tr>
+          <tr>
+            <td>Senior Python Developer </td>
+            <td>5 to 8 years</td>
+            <td>HTML,CSS,Java Script,Bootstrap,Python,Django,Django REST Framework,Django REST API,Angular</td>
+            <td>
+              <a href="{% url 'contact' %}" class="btn btn-primary">
+                Apply Now<i class=" fa fa-paper-plane"></i>
+              </a>
             </td>
-            </tr>
-
-
-            <tr>
-              <td>Sales & Service Cloud Developer</td>
-              
-              <td>5+ years</td>
-              <td>Node Js,Angular Js, React,HTML,CSS,Java Script,APEX,Web Services,REST and SOAP APIs</td>
-              <td>
-                <a  href="{% url 'contact' %}"  class="btn  btn-primary" >
-                  Apply Now<i  class="fa fa-paper-plane"></i>
-                </a>
+          </tr>
+          <tr>
+            <td>Angular Developer</td>
+            <td>5 to 6 years</td>
+            <td>HTML,CSS,Java Script,Bootstrap,Angular</td>
+            <td>
+              <a href="{% url 'contact' %}" class="btn  btn-primary">
+                Apply Now<i class="fa fa-paper-plane"></i>
+              </a>
             </td>
-            </tr>
-
-            <tr>
-              <td>Senior React Native Developer</td>
-              
-              <td>5+ years</td>
-              <td>Karma,Jest,Appium,Cypress,Scrum,Kanban</td>
-              <td>
-                <a   href="{% url 'contact' %}"  class="btn  btn-primary" >
-                  Apply Now<i  class=" fa fa-paper-plane"></i>
-                </a>
+          </tr>
+          <tr>
+            <td>React JS Developer</td>
+            <td>5+ years</td>
+            <td>HTML,CSS,Java Script,Bootstrap,React JS</td>
+            <td>
+              <a href="{% url 'contact' %}" class="btn  btn-primary">
+                Apply Now<i class="fa fa-paper-plane"></i>
+              </a>
             </td>
-            </tr>
-            <tr>
-              <td>Senior Angular</td>
-              
-              <td>7+ years</td>
-              <td>Http calls,Http interceptors,HTML,CSS,Javascript,React Native,Bootstrap,Agile(Scrum),REST APIs </td>
-              <td>
-                <a  href="{% url 'contact' %}"  class="btn  btn-primary" >
-                  Apply Now<i  class="fa fa-paper-plane"></i>
-                </a>
-            </td>
-            </tr>
-            
-
-            
-            
-            
-          </table>
-        </div>
-        
+          </tr>
+        </table>
       </div>
     </div>
   </div>
-
+</div>
 {% endblock content %}

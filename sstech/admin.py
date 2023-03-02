@@ -8,4 +8,4 @@ class ContactAdmin(admin.ModelAdmin):
 admin.site.register(Contact,ContactAdmin)
 
 #username sudhatri
-#password srisudhatri@2022
+#password SriSudhatri@2022
