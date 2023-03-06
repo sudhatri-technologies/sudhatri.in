@@ -13,6 +13,7 @@ class StaticViewsSiteMap(sitemaps.Sitemap):
                'about',
                'web',
                'mobile',
+               'dm',
                'us',
                'ds',
                'careers',
