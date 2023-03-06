@@ -29,7 +29,7 @@ urlpatterns = [
     path('',include('sstech.urls')),
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps},
      name='django.contrib.sitemaps.views.sitemap'),
-    path('robots.txt',include('robots.urls'))
+    
 
 ]
 #static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
