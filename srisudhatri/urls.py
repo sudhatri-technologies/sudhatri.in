@@ -18,10 +18,18 @@ from django.urls import path,include
 
 #from django.conf import settings
 #from django.conf.urls.static import static
+from sstech.sitemap import StaticViewsSiteMap
+from django.contrib.sitemaps.views import sitemap
+sitemaps={
+    'sitemap':StaticViewsSiteMap
+}
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('sstech.urls'))
+    path('',include('sstech.urls')),
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps},
+     name='django.contrib.sitemaps.views.sitemap')
+
 ]
 #static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
