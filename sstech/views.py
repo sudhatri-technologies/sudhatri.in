@@ -36,3 +36,7 @@ def contact(request):
         return render(request,'contact.html')
 def careers(request):
     return render(request,'careers.html')
+
+# Errors 
+def error_404(request,exception):
+    return render(request,'404.html')

@@ -12,3 +12,4 @@ urlpatterns = [
     path('careers',views.careers,name='careers'),
     path('contact',views.contact,name='contact')
 ]
+handler404='sstech.views.error_404'
